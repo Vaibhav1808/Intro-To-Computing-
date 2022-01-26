@@ -109,7 +109,7 @@ print("*"*90)
 
 
 #Question 4
-'''Program to find Greatest Number.'''
+'''Program to find Greatest Number'''
 
 
 print("\nGreatest Number Calculator\n")
