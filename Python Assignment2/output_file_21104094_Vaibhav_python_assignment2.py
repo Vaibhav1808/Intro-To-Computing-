@@ -55,8 +55,8 @@ Yes
 Triangle Sides Validity Checker
 
 Enter the Length of first side:12
-Enter the Length of second side:13
-Enter the Length of third side:15
+Enter the Length of second side:5
+Enter the Length of third side:13
 Yes
 *************************************END OF ASSIGNMENT*************************************
 >>> 
