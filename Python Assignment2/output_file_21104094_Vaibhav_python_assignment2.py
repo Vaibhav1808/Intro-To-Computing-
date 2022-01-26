@@ -38,7 +38,7 @@ Left shifting both a and b by 2 bits: 224 40
 Right shifting a by 2 and b with 4 bits: 14 0
 ******************************************************************************************
 
-Greatest Number Calculator
+Greatest Number Calculator.
 
 Enter your first number:22
 Enter your second number:24
