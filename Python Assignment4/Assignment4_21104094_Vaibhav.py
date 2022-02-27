@@ -25,7 +25,7 @@ print("*"*90)
 
 print("\n\tPASCAL's TRIANGLE\n")
 
-#Using recursive approach.
+#Using recursive approach
 print("\n\t Using Recursive Approach.\n")
 
 def triangle_row(spaces, num_list):
