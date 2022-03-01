@@ -1,7 +1,7 @@
 Python 3.10.1 (tags/v3.10.1:2cd268a, Dec  6 2021, 19:10:37) [MSC v.1929 64 bit (AMD64)] on win32
 Type "help", "copyright", "credits" or "license()" for more information.
 
-============= RESTART: C:/Users/VAIBHAV/OneDrive/Desktop/assgn4.py =============
+============= RESTART: C:\Users\VAIBHAV\OneDrive\Desktop\assgn4.py =============
 
 	TOWER OF HANOI
 
@@ -53,7 +53,8 @@ d)
 e)
 Immutable set :  frozenset({2, 4, 5, 6, 12})
 f)
-1876198182457539754
+Hash value as a string is:  5559031126705875437
+Hash value as an integer is:  12
 ******************************************************************************************
 Enter name of student: Vaibhav
 Enter SID of Vaibhav: 21104094
@@ -76,4 +77,3 @@ Word uttered by george: Life
 Word uttered by barbie: File
 True Friendship
 *************************************************************************END OF ASSIGNMENT*************************************************************************
-

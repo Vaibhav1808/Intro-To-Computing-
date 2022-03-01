@@ -133,7 +133,9 @@ print("Immutable set : ", f_s)
 
 print('f)')
 m = max(f_s)
-print(hash(str(m)))
+print("Hash value as a string is: ",hash(str(m)))
+print("Hash value as an integer is: ",hash(m))
+
 
 print("*"*90)
 
