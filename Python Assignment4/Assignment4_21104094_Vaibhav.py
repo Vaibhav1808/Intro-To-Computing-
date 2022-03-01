@@ -90,58 +90,50 @@ print("*"*90)
 #Question 3
 '''Program to find quotient, remainder and using built-in function'''
 
-#Asking user to input numbers
-num1 = int(input("Enter first number: "))
-num2 = int(input("Enter Second number: "))
-print()
+a = int(input("Enter the first number: "))
+b = int(input("Enter the second number: "))
 
-#Using Divmod function for quotient and remainder
-Quotient_Remainder = (divmod(num1, num2))
+# ensuring that denominator is not zero
+while b == 0:
+    b = int(input("Denominator cannot be zero. Please enter a non zero number : "))
 
-#Creating an empty list for using later .
-List2 = []
-print("The quotient and remainder are:", Quotient_Remainder)
+Q, R = divmod(a, b)
+m = [Q, R]
 
-List1 = list(Quotient_Remainder)
-List3 = list(Quotient_Remainder)
 
-# part a
-print("(a)\nChecking if the function is callable: ", callable(divmod))
-print()
+def division():
+    Q, R = divmod(a, b)
+    print(f"Quotient:{Q}\nRemainder:{R}")
 
-# Part b
-print("(b)")
-if 0 in List1:
-    print("There are zeroes in the list")
+
+division()
+
+print('a)')
+print(callable(division))
+
+print('b)')
+if all(divmod(a, b)):
+    print('All the values are non zero')
 else:
-    print("There are no zeroes in the list")
-print()
+    print('All the values are not non zero')
 
-# part c
-for j in [4, 5, 6]:
-    List1.append(j)
-for k in range(len(List1)):
-    if List1[k] > 4:
-        List2.append(List1[k])
+print('c)')
+m.extend([4, 5, 6])
+print("After adding 4,5,6 : ", m)
+filtered = filter(lambda n: n > 4, m)
+print("Values greater than 4 are : ", list(filtered))
 
-List2.sort()
-Set_of_num = set(List2)
-print("(c)\nNumbers greater than 4 are :", Set_of_num)
-print()
+print('d)')
+s = set(m)
+print(s)
 
+print('e)')
+f_s = frozenset(s)
+print("Immutable set : ", f_s)
 
-set1 = frozenset(Set_of_num)
-
-# part d.
-print("(d)\nThe immutable set is :", set1)
-print()
-
-# part e.
-print("(e)\nMaximum Value in the set is :", max(set1))
-print()
-
-# Part f.
-print("(f)\nHash of max value is :", hash(max(set1)))
+print('f)')
+m = max(f_s)
+print(hash(str(m)))
 
 print("*"*90)
 
